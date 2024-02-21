@@ -1,0 +1,14 @@
+/* 
+.cards . {
+    background-image: url("/assets/img/thumbnails/.png");
+}
+*/
+.cards .a2048 {
+    background-image: url("/assets/img/thumbnails/2048.png");
+}
+.cards .apizza-tower {
+    background-image: url("pizza.jpg");
+}
+.cards . {
+    background-image: url("/assets/img/thumbnails/.png");
+}
