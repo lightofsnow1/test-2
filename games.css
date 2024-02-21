@@ -3,10 +3,10 @@
     background-image: url("/assets/img/thumbnails/.png");
 }
 */
-.cards .a2048 {
-    background-image: url("/assets/img/thumbnails/2048.png");
+.cards .mario {
+    background-image: url("mario.jpg");
 }
-.cards .apizza-tower {
+.cards .pizza-tower {
     background-image: url("pizza.jpg");
 }
 .cards . {
