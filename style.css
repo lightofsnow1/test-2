@@ -1,0 +1,90 @@
+@inport url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap')
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-ccolor: #24252a;
+}
+
+li, a, button {
+  font-family: "micro 5", sans-serif;"
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+color:  #bababa;;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+button:hover
+background-color: rgba(0,136,169,1.8);
+
+.info{
+  weight: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(245.59deg, #4158D0 0%, #C850C0 75.52%);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+section{
+  padding: 0 19%;
+}
+
+.info-text{
+  font-family: "Pixelify Sans", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.info-text p{
+  font-family: "Pixelify Sans", sans-serif;
+  color: #00fffb;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
